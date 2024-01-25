@@ -1,0 +1,79 @@
+:root {
+    --primary: rgb(20, 20, 20);
+    --secondary: rgb(158, 1, 1);
+    --tertiary: rgb(80, 80, 80);
+}
+
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+
+/* header */
+.header {
+    padding: 10px, 0;
+    background-color: var(--tertiary);
+    border-bottom: 5px solid var(--secondary);
+}
+
+/* main */
+.main {
+    padding: 40px 0;
+    background-color: var(--primary);
+}
+
+.section {
+    padding: 60px 0;
+    margin: 20 0;
+}
+
+.menu-div {
+    padding: 20px 0;
+    background-color: white;
+}
+
+.menu-section {
+    margin: 20px 0;
+}
+
+.menu-heading {
+    color: white;
+}
+
+.item-desc {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.btn-primary {
+    background-color: var(--secondary);
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--tertiary);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--tertiary);
+}
+
+#receipt-table {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+}
